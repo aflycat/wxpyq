@@ -1,0 +1,316 @@
+#header{
+	width: 100%;
+	height: 1rem;
+	background: #31b700;
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: center;
+	line-height: 1rem;
+	color: #fff;
+	font-size: 0.36rem;
+	z-index: 9;	
+	
+}
+#header .backBtn{
+	width: 0.44rem;
+	position: fixed;
+	height: 0.44rem;
+	background: url(../img/backBtn.png) no-repeat center  center;
+	background-size:100% auto;
+	margin-top: 0.275rem;
+	left: 0.25rem;
+	z-index: 12;
+}
+#header  .notice{
+	position: fixed;
+	top:0rem ;
+	font-size: 0.36rem;
+	right:0.25rem ;
+	height: 1rem;
+	width: auto;
+	color: #fff;
+	line-height: 1rem;
+	
+}
+#contentWrap{
+	width:100%;
+	height:auto;
+}
+#contentWrap .box{
+	width: 100%;
+	height: auto;
+	border-bottom: 2px solid #eee;
+}
+#contentWrap .content{
+	width:93%;
+	margin:0 auto;
+	min-height: 1rem;
+	height:auto;
+	background: #fff;
+	
+	padding-left: 1.25rem;
+	position:relative;
+}
+#contentWrap .content .pic{
+	position:absolute;
+	left:0.25rem;
+	width: 1rem;
+	height: 1rem;
+	
+}
+#contentWrap .content .pic img{
+	width: 100%;
+	height: 100%;
+	border-radius: 0.1rem;
+}
+#contentWrap .content .wordWrap{
+	width:100%;
+	height:auto;
+	padding-left: 0.25rem;
+}
+#contentWrap .content .wordWrap .name{
+	font-size: 0.33rem;
+	color: #31b700;
+}
+#contentWrap .content .wordWrap .word{
+	font-size: 0.30rem;
+	color: #333;
+}
+#contentWrap .content .shar-pic{
+	width: 5.5rem;
+	height:auto;
+	
+}
+#contentWrap .content .shar-pic .item-pic{
+	width:100%;
+	height: 1.7rem;
+	margin-top: 0.07rem;
+	padding-left: 0.25rem;
+	
+}
+#contentWrap .content .shar-pic .item-pic .pic2{
+	width: 1.7rem;
+	height: 1.7rem;
+	float: left;
+	margin-right: 0.07rem;
+	
+}
+#contentWrap .content .shar-pic .item-pic .pic2 img{
+	width: 100%;
+	height: 100%;
+}
+#contentWrap .content .shar-pic .item-pic .last{
+	float: right;
+	margin-right: 0;
+}
+#contentWrap .content .time-tips{
+	width: 100%;
+	height:1rem;
+	clear: both;
+}
+#contentWrap .content .time-tips .time{
+	width: auto;
+	height: 100%;
+	line-height: 1rem;
+	font-size: 0.26rem;
+	color: #808080;
+	float: left;
+}
+#contentWrap .content .time-tips .fun-sel{
+	width: auto;
+	height: 1rem;
+	float: right;
+	position: relative;
+	
+}
+#contentWrap .content .time-tips .fun-sel .tips{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: url(../img/fbd-fun-tips.png) no-repeat center center;
+	background-size:100% 100% ;
+	margin-top: 0.25rem;
+	
+}
+#contentWrap .content .time-tips .fun-sel .fun,.had{
+	width: 4.22rem;
+	height: 0.9rem;
+	border-radius: 0.1rem;
+	background: #4c544c;
+	position: absolute;
+	top: 0;
+	left:-4.3rem;
+	display: none;
+}
+#contentWrap .content .time-tips .fun-sel .fun div,.had div{
+	width: 50%;
+	height:0.7rem;
+	margin-top: 0.1rem;
+	float: left;
+	line-height: 0.7rem;
+	color: #fff;
+	font-size: 0.33rem;
+}
+#contentWrap .content .time-tips .fun-sel .fun .praise,.had .praise{
+	border-right:1px solid #000 ;
+}
+#contentWrap .content .time-tips .fun-sel .fun img,.had img{
+	width: 0.5rem;
+	height:0.5rem;
+	margin-top: 0.1rem;
+	margin-left: 0.35rem;
+	margin-right: 0.1rem;
+	float: left;
+}
+#contentWrap .content .pra-mess{
+	width: 100%;
+	height: auto;
+	background: #f3f3f5;
+}
+#contentWrap .content .pra-mess .pra-list{
+	width: 100%;
+	min-height: 0.6rem;
+	height:auto;
+	background: #f3f3f5;
+	padding-left: 0.25rem;
+}
+#contentWrap .content .pra-mess .pra-list .symble{
+	width: 0.3rem;
+	height: 0.3rem;
+	float: left;
+	background: url(../img/fbd-praise.png) no-repeat center center;
+	background-size: 100% 100%;
+	margin-top: 0.1rem;
+	margin-right: 0.1rem;
+}
+#contentWrap .content .pra-mess .pra-list .per-list{
+	color: #31b700;
+	line-height: 0.6rem;
+	font-size: 0.3rem;
+}
+#contentWrap .content .pra-mess .mess-list{
+	width: 100%;
+	height: auto;
+}
+#contentWrap .content .pra-mess .mess-list .mess{
+	width: 100%;
+	height:auto;
+	background:  #f3f3f5;
+	font-size: 0.3rem;
+	line-height: 0.55rem;
+	padding-left: 0.35rem;
+	border: 1px solid #eee;
+}
+#contentWrap .content .pra-mess .mess-list .mess .name{
+	color: #31b700;
+
+}
+#contentWrap .content .pra-mess .mess-list .mess .word{
+	color: #333;
+	
+}
+#pre-pic{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+	z-index: 20;
+	display: none;
+}
+#pre-pic .wrap{
+	width: 6rem;
+	height: 9rem;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -4.5rem;
+	margin-left: -3rem;
+}
+#pre-pic .wrap img{
+	width: 100%;
+	height: 100%;
+}
+#putMess{
+	width: 100%;
+	height: 100%;
+	position:fixed ;
+	background: rgba(0,0,0,0.6);
+	top: 0;
+	left: 0;
+	z-index: 9;
+	display: none;
+}
+#putMess .box{
+	width: 100%;
+	height: 1rem;
+	background: #f4f4f4;
+	position: fixed;
+	top: 0rem;
+	line-height: 1rem;
+	font-size: 0.3rem;
+	
+	
+}
+#putMess .wrap{
+	width: 80%;
+	height: 0.8rem;
+	margin-top: 0.1rem;
+	border: 1px solid #a5a5a5;
+	margin-left: 0.25rem;
+	background: #fff;
+	float:left;
+	margin-right: 0.2rem;
+	
+}
+#putMess input{
+	width: 80%;
+	height:0.4rem;
+	border: none;
+	outline: none;
+	font-size: 0.3rem;
+	position:relative;
+	top: -0.12rem;
+	left: 0.1rem;
+}
+#putMess  .sure{
+	width: auto;
+	height: 1rem;
+	float: right;
+	line-height: 1rem;
+	margin-right: 0.25rem;
+	color: #333;
+}
+#edict {
+	width: 100%;
+	height: 100%;
+	position:fixed ;
+	background: rgba(0,0,0,0.6);
+	top: 0;
+	left: 0;
+	z-index: 9;
+	display: none;
+}
+#edict .wrap{
+	width: 100%;
+	height: 2.2rem;
+	background: #f4f4f4;
+	position: fixed;
+	bottom: 0rem;
+	line-height: 1rem;
+	font-size: 0.3rem;
+	
+	
+}
+#edict .dele,#edict .cancle{
+	background: #fff;
+	height: 1rem;
+	width: 100%;
+	text-align: center;
+}
+#edict  .dele{
+	color: #f00;
+}

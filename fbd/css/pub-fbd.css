@@ -1,0 +1,203 @@
+li{
+	list-style: none;
+}
+#header{
+	width: 100%;
+	height: 1rem;
+	background: #31b700;
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: center;
+	line-height: 1rem;
+	color: #fff;
+	font-size: 0.36rem;
+	z-index: 9;	
+	
+}
+#header .backBtn{
+	width: 0.44rem;
+	position: fixed;
+	height: 0.44rem;
+	background: url(../img/backBtn.png) no-repeat center  center;
+	background-size:100% auto;
+	margin-top: 0.275rem;
+	left: 0.25rem;
+	z-index: 12;
+}
+#header  .notice{
+	position: fixed;
+	top:0rem ;
+	font-size: 0.36rem;
+	right:0.25rem ;
+	height: 1rem;
+	width: auto;
+	color: #fff;
+	line-height: 1rem;
+	
+}
+#contentWrap{
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+#contentWrap .wordWrap{
+	width: 93%;
+	min-height: 2.3rem;
+	margin: 0 auto;
+}
+#contentWrap .wordWrap textarea{
+	width: 100%;
+	height: 100%;
+	min-height: 2.3rem;
+	display: block;
+	font-size: 0.3rem;
+	color: #333;
+	padding-top:0.1rem ;
+	border: none;
+	outline: none;
+	resize: none;
+}
+#contentWrap .picWrap{
+	width: 93%;
+	margin: 0 auto;
+	background: #fff;
+	min-height: 2.15rem;
+	
+}
+#contentWrap .picWrap li,#contentWrap .picWrap .pic{
+	width: 2.15rem;
+	height: 2.15rem;
+	border-radius: 0.1rem;
+	background: #f8f8f8;
+	position: relative;
+	float: left;
+	margin-right: 0.1rem;
+	margin-top: 0.1rem;
+}
+
+#contentWrap .picWrap  input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	z-index: 5;
+}
+
+#contentWrap .picWrap .pic dl{
+	width: 0.9rem;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#contentWrap .picWrap .pic dl dt{
+	margin-top: 0.5rem;
+	width:0.9rem;
+	height: 0.8rem;
+	background: url(../img/fdb-up-pic.png) no-repeat center center;
+	background-size:100% 100% ;
+}
+#contentWrap .picWrap .pic dl dd{
+	margin-top: 0.2rem;
+	width: 100%;
+	height: 0.3rem;
+	text-align: center;
+	line-height: 0.3rem;
+	font-size: 0.26rem;
+	color: #808080;
+}
+#contentWrap .picWrap .pic-list{
+	width: 2.15rem;
+	height: 2.15rem;
+	border-radius:0.1rem ;
+	position: relative;
+	float: left;
+	margin-right: 0.1rem;
+}
+#contentWrap .picWrap .pic-list img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+#see{
+	width:100%;
+	height: 1rem;
+	background: #fff;
+	line-height: 1rem;
+	font-size: 0.36rem;
+	clear: both;
+	border-top:1px solid #eee ;
+}
+#see .symble{
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-top: 0.35rem;
+	float: left;
+	margin-left: 0.25rem;
+	background: url(../img/fdb-who-see.png) no-repeat center center;
+	background-size: 100% 100%;
+	margin-right: 0.25rem;
+	
+}
+#see .title{
+	width: auto;
+	height: 1rem;
+	color: #333333;
+	float: left;
+	
+}
+#see .icon{
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-top: 0.3rem;
+	float: right;
+	background: url(../img/rightBtn.png) no-repeat center center;
+	background-size: 100% 100%;
+	margin-right: 0.25rem;
+} 
+#see .name{
+	width: auto;
+	float: right;
+	color: #808080;
+}
+#see-list{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	
+}
+#see-list .list{
+	width: 100%;
+	height: 1.5rem;
+	
+}
+#see-list .list .symble{
+	width: 1rem;
+	height: 1.5rem;
+	float: left;
+}
+#see-list .list .on{
+	background: url(../img/fdb-check-see.png) no-repeat center center;
+	background-size:100% 100% ;
+}
+#see-list .list .title{
+	width: auto;
+	float: left;
+	overflow: hidden;
+}
+#see-list .list .title .tit1{
+	margin-top: 0.2rem;
+	font-size: 0.36rem;
+	color: #333;
+}
+#see-list .list .title .tit2{
+	margin-top: 0.2rem;
+	font-size: 0.30rem;
+	color: #808080;
+}
